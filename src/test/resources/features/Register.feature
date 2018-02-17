@@ -8,7 +8,7 @@ Feature: Register
     And I type email address to create new user
     And I click create an account
     Then I see Your Personal Information
-    Then I select Mr
+    Then I select Mr and Mrs
     Then I enter first name in the first name input field
     Then I enter last name in the last name input field
     Then I see my email address
